@@ -20,7 +20,7 @@ export default function TodoList() {
         <div>
             <input type="text" placeholder="Add a Task" value={newTask} onChange={updateTodo}/>
             <br></br>
-            <br />
+            <br></br>
             <button onClick={newTodo}>Add Task</button>
             <br />
             <br />
