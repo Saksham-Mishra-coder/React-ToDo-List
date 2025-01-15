@@ -10,7 +10,7 @@ export default function TodoList() {
     };
 
     let updateTodo = (event) =>{
-        event.default
+        
         setNewTask(event.target.value);
     };
 
