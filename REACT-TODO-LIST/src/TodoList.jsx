@@ -12,7 +12,7 @@ export default function TodoList() {
     };
 
     let updateTodo = (event) =>{
-       
+        event.default
         setNewTask(event.target.value);
     };
     let deleteTodo =(id)=> {
@@ -56,7 +56,7 @@ export default function TodoList() {
         <div>
             <input type="text" placeholder="Add a Task" value={newTask} onChange={updateTodo}/>
             <br></br>
-            <br />
+            <br></br>
             <button onClick={newTodo}>Add Task</button>
             <br />
             <br />
