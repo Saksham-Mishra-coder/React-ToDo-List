@@ -4,4 +4,5 @@
 * add task :)
 * View task :)
 * update task :)
+* Delete task :)
   
